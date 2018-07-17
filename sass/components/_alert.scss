@@ -8,10 +8,11 @@
   }
 
   &--success {
+    @include alert($green, $white);
 
   }
 
   &--notification {
-
+    @include alert($blue, $white);
   }
 }
