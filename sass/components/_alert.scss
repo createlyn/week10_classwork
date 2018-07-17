@@ -1,0 +1,17 @@
+// Alert Component Stylesheet
+// ========================================
+
+.alert {
+
+  &--error {
+    @include alert($pink, $white);
+  }
+
+  &--success {
+
+  }
+
+  &--notification {
+
+  }
+}
